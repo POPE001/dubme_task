@@ -128,11 +128,19 @@ The transcription's Word Error Rate (WER) provided quantitative evidence of the 
 
 ## Potential Improvements and Limitations
 
-While the project's goals were met, opportunities for advancement were identified:
+While the project's objectives were met with a degree of success, several limitations have been identified, which open up opportunities for further enhancements:
 
-- **Advanced Noise Reduction**: Adoption of more refined algorithms to improve vocal clarity.
-- **Real-time Processing**: Enhancement of the current methodology to support live audio processing.
-- **Diverse Video Samples**: Broadening the test pool with varied audio samples to evaluate robustness.
+While the project achieved its primary objectives, there are areas for improvement and certain limitations that have been identified:
+
+- **Advanced Noise Reduction**: Exploring more sophisticated algorithms or deep learning models could yield further improvements in vocal clarity and noise suppression.
+
+- **Real-time Processing**: The current approach is not optimized for real-time audio processing. Enhancing the methodology to function effectively in a live environment remains a priority for future development.
+
+- **Diverse Video Samples**: The project was tested with a limited scope, using only one sample video into which noise was artificially introduced using Inshot. This presents a limitation in terms of the robustness and adaptability of the system to different types of audio environments and noise profiles.
+- 
+- **Variable Noise Impact**: In testing with other video samples outside the project, it was noted that noise removal did not consistently improve STT accuracy. This variability indicates that the current noise removal technique may not be universally effective across different types of background noise. It is crucial to investigate the conditions under which noise removal is beneficial and to develop criteria or algorithms that can predict and optimize the application of noise reduction techniques for each specific case.
+
+- **Sample Variety and Naturalism**: To better assess the system's performance and create a more robust audio processing solution, future work should include testing with a wider variety of video samples. These samples should ideally contain natural background noise and represent a diverse set of recording conditions, speakers, and speech nuances.
 
 ## Integration into a Larger STT Pipeline
 
@@ -143,4 +151,15 @@ To integrate this module into a full-fledged STT system, several factors need co
 - **Adaptability**: Flexibility to work with various audio conditions and video sources.
 - **Quality Assurance**: Continuous performance monitoring to ensure consistent STT accuracy.
 
+##  Licence and Citation
+```
+@InProceedings{Hegde_2021_WACV,
+    author    = {Hegde, Sindhu B. and Prajwal, K.R. and Mukhopadhyay, Rudrabha and Namboodiri, Vinay P. and Jawahar, C.V.},
+    title     = {Visual Speech Enhancement Without a Real Visual Stream},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2021},
+    pages     = {1926-1935}
+}
+```
 
