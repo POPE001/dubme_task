@@ -85,6 +85,16 @@ python dubme_task.py
 
 The video file `adream.mp4` has been added to the `data` folder of this GitHub repository. Ensure you have the correct path set in your script or notebook to access the video file for processing.
 
+## Google Drive Folder
+1. **Create an 'AudioProcessing' Folder**:
+   - Navigate to your Google Drive.
+   - Create a new folder and name it `AudioProcessing`.
+   - This folder will be used to store output files and any intermediate files the program creates.
+
+2. **Add the Video File**:
+   - Place the `adream.mp4` video file into the root directory of your Google Drive.
+   - Ensure that the video file is named correctly as `adream.mp4` as the program will be looking for this specific file.
+
 
 ## Solution Overview
 
