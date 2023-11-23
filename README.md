@@ -1,7 +1,5 @@
 # Task
 
-## Requirements for the Problem
-
 Your task is to develop a program that can be hosted on GitHub or a similar platform. The program should meet the following specifications:
 
 - **Input**: A video file in MP4 format.
