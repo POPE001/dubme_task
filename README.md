@@ -85,9 +85,6 @@ python dubme_task.py
 
 The video file `adream.mp4` has been added to the `data` folder of this GitHub repository. Ensure you have the correct path set in your script or notebook to access the video file for processing.
 
-```
-
-
 
 ## Solution Overview
 
