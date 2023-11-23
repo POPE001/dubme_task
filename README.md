@@ -30,6 +30,64 @@ Your task is to develop a program that can be hosted on GitHub or a similar plat
 - Consider using tools/libraries like TensorFlow, PyTorch, and librosa.
 - Pretrained models and solutions are available for these kinds of tasks. While these can serve as a starting point, ensure you properly cite any sources if you borrow code or ideas.
 
+# Setup
+
+This guide will help you set up the environment to run the audio separation program, which uses resources from Google Drive and can be executed in Google Colab.
+
+## Prerequisites
+
+- A Google account for access to Google Drive and Google Colab.
+- Python 3.6 or higher installed locally (if running locally).
+- pip (Python package installer).
+## Installation
+
+First, clone the repository to your local machine or open it in Google Colab:
+
+```bash
+git clone https://github.com/POPE001/dubme_task.git
+cd dubme_task
+```
+Alternatively, you can open the notebook directly in Google Colab:
+`https://colab.research.google.com/github/POPE001/dubme_task`
+Next, if you are running the program locally, install the required packages using pip:
+
+Next, if you are running the program locally, install the required packages using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the dependencies listed in the `requirements.txt` file.
+
+If you are using Google Colab, the dependencies will be installed directly in the notebook using `!pip install` commands.
+
+## Google Drive Setup
+
+Since the program uses audio files from Google Drive, you'll need to mount your Google Drive in the Colab notebook:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+After mounting, you can access files in your Google Drive under the `/content/drive/My Drive/` directory.
+
+## Running the Program
+
+In Google Colab, run the notebook cells sequentially. The notebook will execute the audio separation on the provided video file `adream.mp4`, which is included in the repository's `data` folder.
+
+For local execution, ensure you are in the project directory, and then run the program using:
+
+```bash
+python dubme_task.py
+```
+## Video File
+
+The video file `adream.mp4` has been added to the `data` folder of this GitHub repository. Ensure you have the correct path set in your script or notebook to access the video file for processing.
+
+```
+
+
 
 ## Solution Overview
 
