@@ -94,7 +94,13 @@ The video file `adream.mp4` has been added to the `data` folder of this GitHub r
 2. **Add the Video File**:
    - Place the `adream.mp4` video file into the root directory of your Google Drive.
    - Ensure that the video file is named correctly as `adream.mp4` as the program will be looking for this specific file.
+# Source Video
 
+The audio separation was performed on a segment of the "I Have a Dream" speech by Martin Luther King Jr. The original video is titled "I Have a Dream speech by Martin Luther King .Jr HD (subtitled)" and is available on YouTube.
+
+- **Video Link**: [I Have a Dream speech by Martin Luther King .Jr HD (subtitled)](https://www.youtube.com/watch?v=vP4iY1TtS3s)
+
+The specific segment used for this project was extracted from the full speech and should be included in the Google Drive root directory as `adream.mp4`. The video segment is utilized under fair use for educational purposes, as part of this audio processing project to improve Speech-to-Text transcription accuracy.
 
 ## Solution Overview
 
@@ -161,15 +167,14 @@ To integrate this module into a full-fledged STT system, several factors need co
 - **Adaptability**: Flexibility to work with various audio conditions and video sources.
 - **Quality Assurance**: Continuous performance monitoring to ensure consistent STT accuracy.
 
-##  Licence and Citation
-```
-@InProceedings{Hegde_2021_WACV,
-    author    = {Hegde, Sindhu B. and Prajwal, K.R. and Mukhopadhyay, Rudrabha and Namboodiri, Vinay P. and Jawahar, C.V.},
-    title     = {Visual Speech Enhancement Without a Real Visual Stream},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
-    year      = {2021},
-    pages     = {1926-1935}
-}
-```
+# References
+The following resources were referenced during the development of this project:
+
+1. Jansson, Andreas, et al. "Singing Voice Separation with Deep U-Net Convolutional Networks." ISMIR, 2017. [Read the paper](https://ejhumphrey.com/assets/pdf/jansson2017singing.pdf).
+
+2. Grais, Emad M., and Plumbley, Mark D. "Single Channel Audio Source Separation using Convolutional Denoising Autoencoders." 2017. [Read the paper](https://arxiv.org/abs/1703.08019).
+
+3. Ronneberger, Olaf, Fischer, Philipp, and Brox, Thomas. "U-Net: Convolutional Networks for Biomedical Image Segmentation." MICCAI, 2015. [Read the paper](https://arxiv.org/abs/1505.04597).
+
+4. Piczak, Karol J. "ESC: Dataset for Environmental Sound Classification." Proceedings of the 23rd Annual ACM Conference on Multimedia, Brisbane, Australia, 2015. [DOI link](http://dx.doi.org/10.1145/2733373.2806390).
 
