@@ -1,0 +1,6 @@
+spleeter
+noisereduce
+soundfile
+SpeechRecognition
+pydub
+matplotlib
