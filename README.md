@@ -151,7 +151,7 @@ While the project achieved its primary objectives, there are areas for improveme
 - **Real-time Processing**: The current approach is not optimized for real-time audio processing. Enhancing the methodology to function effectively in a live environment remains a priority for future development.
 
 - **Diverse Video Samples**: The project was tested with a limited scope, using only one sample video into which noise was artificially introduced using Inshot. This presents a limitation in terms of the robustness and adaptability of the system to different types of audio environments and noise profiles.
-- 
+  
 - **Variable Noise Impact**: In testing with other video samples outside the project, it was noted that noise removal did not consistently improve STT accuracy. This variability indicates that the current noise removal technique may not be universally effective across different types of background noise. It is crucial to investigate the conditions under which noise removal is beneficial and to develop criteria or algorithms that can predict and optimize the application of noise reduction techniques for each specific case.
 
 - **Sample Variety and Naturalism**: To better assess the system's performance and create a more robust audio processing solution, future work should include testing with a wider variety of video samples. These samples should ideally contain natural background noise and represent a diverse set of recording conditions, speakers, and speech nuances.
